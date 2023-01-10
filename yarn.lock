@@ -3057,7 +3057,7 @@
 
 "cm-search-replace@^1.0.0":
   "integrity" "sha512-QlzFliHmKI2wWDQh7+DUoffHIbyHgI14+w7UwrC+9nJQFwqFoaC6RmjnCy5oL+jT8qOourY9ywjDNLlM5GPZbw=="
-  "resolved" "https://registry.npmjs.org/cm-search-replace/-/cm-search-replace-1.0.0.tgz"
+  "resolved" "https://registry.npmmirror.com/cm-search-replace/-/cm-search-replace-1.0.0.tgz"
   "version" "1.0.0"
 
 "co@^4.6.0":

@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+/**
+ * 修改了该文件，引入cm-search-replace以支持搜索框
+ */
 // @ts-check
 import codemirror from 'codemirror';
 import 'codemirror/lib/codemirror.css';

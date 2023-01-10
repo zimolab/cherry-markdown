@@ -1,11 +1,11 @@
 {
-  "name": "cherry-markdown",
+  "name": "cherry-markdown-notes",
   "license": "Apache-2.0",
   "version": "0.8.11",
-  "description": "a new markdown editor",
+  "description": "a copy of cherry-markdown with some modification for my cherry-notes project use",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tencent/cherry-markdown.git"
+    "url": "git+https://github.com/zimolab/cherry-markdown"
   },
   "main": "./dist/cherry-markdown.min.js",
   "module": "./dist/cherry-markdown.esm.js",

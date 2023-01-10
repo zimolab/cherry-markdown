@@ -35,6 +35,10 @@ import Logger from '@/Logger';
 import Event from '@/Event';
 import { handelParams } from '@/utils/file';
 
+import 'cm-search-replace/src/search.js';
+import 'codemirror/addon/scroll/annotatescrollbar.js';
+import 'codemirror/addon/search/matchesonscrollbar.js';
+
 /**
  * @typedef {import('~types/editor').EditorConfiguration} EditorConfiguration
  * @typedef {import('~types/editor').EditorEventCallback} EditorEventCallback

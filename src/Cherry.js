@@ -22,7 +22,7 @@ import FloatMenu from './toolbars/FloatMenu';
 import Toolbar from './toolbars/Toolbar';
 import { createElement } from './utils/dom';
 import Sidebar from './toolbars/Sidebar';
-import { customizer, getThemeFromLocal } from './utils/config';
+import { customizer, getThemeFromLocal, changeTheme } from './utils/config';
 import NestedError, { $expectTarget } from './utils/error';
 import getPosBydiffs from './utils/recount-pos';
 import defaultConfig from './Cherry.config';
@@ -583,5 +583,15 @@ export default class Cherry extends CherryStatic {
    */
   export(type = 'pdf') {
     this.previewer.export(type);
+  }
+
+  /**
+   * 新增函数
+   * 设置主题
+   * @public
+   * @param {String} theme: 主题
+   */
+  setTheme(theme) {
+    changeTheme(this, theme);
   }
 }

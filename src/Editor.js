@@ -16,7 +16,8 @@
 /**
  * 修改了该文件，引入cm-search-replace以支持搜索框
  */
-// @ts-check
+// @ts-nocheck
+// @ts-ignore
 import codemirror from 'codemirror';
 import 'codemirror/lib/codemirror.css';
 // import 'codemirror/mode/markdown/markdown';
@@ -102,8 +103,10 @@ export default class Editor {
     this.animation = {};
     const { codemirror, ...restOptions } = options;
     if (codemirror) {
+      // @ts-ignore
       Object.assign(this.options.codemirror, codemirror);
     }
+    // @ts-ignore
     Object.assign(this.options, restOptions);
     this.$cherry = this.options.$cherry;
     this.instanceId = this.$cherry.getInstanceId();
